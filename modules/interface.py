@@ -34,7 +34,7 @@ def afficherClauses(clauses: list[list[int]]) -> None:
     print(f"\nNombre de clauses CNF : {len(clauses)}")
 
 
-def afficherEchiquier(solution: list[int], n: int):
+def afficherEchiquier(solution: list[int], n: int) -> None:
     """
     Affiche un échiquier dans la console.
 
@@ -53,7 +53,7 @@ def afficherEchiquier(solution: list[int], n: int):
         print()
 
 
-def afficherSolutions(solutions, n):
+def afficherSolutions(solutions: list[list[int]], n: int) -> None:
     """
     Permet de parcourir les solutions dans le terminal.
 
